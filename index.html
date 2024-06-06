@@ -3,34 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.jpeg" type="image/jpeg">
     <title>Agritech</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    <header>
-        <h1>Agritech S.R.L</h1>
- 
+    <header class="header">
+         <h1>Agritech S.R.L</h1>
     </header>
     <section class="portada">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner  "  >
+                <div class="carousel-item active">
+                    <img src="img/imagen1.png" style="width: 200px; height: 240px;"   alt="Primera imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imagen2.png" style="width: 200px; height: 240px;"   alt="Primera imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/imagen3.png" style="width: 200px; height: 240px;"      alt="Primera imagen">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
         <h2>Cultivando un nuevo futuro</h2>
-        <p> </p>
     </section>
     <section class="productos">
         <h2>Nuestros Productos</h2>
-        <div class="tarjeta">
-            <h3>Fertilizante A</h3>
-            <p>Mejora la calidad del suelo.</p>
+        <div class="categoria">
+            <h3>Fertilizantes</h3>
+            <div class="tarjeta">
+                <h4>Fertilizante A</h4>
+                <p>Mejora la calidad del suelo.</p>
+            </div>
         </div>
-        <div class="tarjeta">
-            <h3>Herbicida B</h3>
-            <p>Elimina las malas hierbas de tus cultivos.</p>
+        <div class="categoria">
+            <h3>Herbicidas</h3>
+            <div class="tarjeta">
+                <h4>Herbicida B</h4>
+                <p>Elimina las malas hierbas de tus cultivos.</p>
+            </div>
         </div>
-        <div class="tarjeta">
-            <h3>Insecticida C</h3>
-            <p>Protege tus plantas de insectos dañinos.</p>
+        <div class="categoria">
+            <h3>Insecticidas</h3>
+            <div class="tarjeta">
+                <h4>Insecticida C</h4>
+                <p>Protege tus plantas de insectos dañinos.</p>
+            </div>
         </div>
     </section>
     <footer>
@@ -51,5 +84,8 @@
             <a href="https://instagram.com" target="_blank">Instagram</a>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
