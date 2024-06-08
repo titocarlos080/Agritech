@@ -1,40 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/logo.jpeg" style="border-radius: 50px;" type="image/jpeg">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon"/>
     <title>Agritech</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
-
 <body>
     <header class="header">
-        <h2  style="margin-left: 10px;" >Agritech S.R.L</h2>
+         <h1 class="" >Agritech S.R.L</h1>
     </header>
     <section class="portada">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
+             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/imagen1.png" style="width: 250px; height: 350px;" alt="Primera imagen">
+                    <img src="https://via.placeholder.com/250x350" style="width: 250px; height: 350px;"   alt="Primera imagen"/>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/imagen2.png" style="width: 250px; height: 350px;" alt="Primera imagen">
+                    <img src="https://via.placeholder.com/250x350" style="width: 250px; height: 350px;"   alt="Segunda imagen"/>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/imagen3.png" style="width: 250px; height: 350px;" alt="Primera imagen">
+                    <img src="https://via.placeholder.com/250x350" style="width: 250px; height: 350px;"   alt="Tercera imagen"/>
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,34 +69,23 @@
     <footer>
         <div class="contacto">
             <h3>Contacto</h3>
-            <p>Teléfono: 63605726 </p>
-            <p>Email: agritech503@gmail.com</p>
-            <a href="https://whatsApp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <p>Teléfono: +123 456 789</p>
+            <p>Email: info@agroquimicosxyz.com</p>
         </div>
         <div class="referencias">
             <h3>Referencias</h3>
             <p>Proveedor Principal: AgroCorp</p>
             <p>Certificaciones: ISO 9001, ISO 14001</p>
-       
         </div>
         <div class="rrss">
             <h3>Síguenos en</h3>
-            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
-            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
-            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
-            <a href="https://tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
         </div>
-        <iframe   
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.88413373694!2d-65.52159129033217!3d-16.83210318389656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e41547f5188c55%3A0xbb502f6e1deae9cc!2sAgritech%20S.R.L!5e0!3m2!1ses-419!2sbo!4v1717879283995!5m2!1ses-419!2sbo"
-        width="220" height="220" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-
-    </footer> 
-
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
