@@ -126,6 +126,8 @@ footer a:hover {
      text-align: center;
     background: #000;
     color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 @media (max-width: 600px) {
     .tarjeta {
